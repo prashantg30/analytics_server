@@ -1,0 +1,23 @@
+{
+    "login": {
+        "params": {
+            "username": "test",
+            "password": "123456"
+        },
+        "response": {
+            "status": true,
+            "msg": "User logged in successfully.",
+            "token": ""
+        }
+    },
+    "addClient": {
+        "params": {
+            "client_id": "client101",
+            "client_name": "xyz"
+        },
+        "response": {
+            "status": true,
+            "msg": "Client added successfully."
+        }
+    }
+}
